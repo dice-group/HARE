@@ -10,8 +10,7 @@ for key, val in E2I.items():
 	I2E[val[0]] = key
 for key, val in T2I.items():
 	I2T[val] = key
-error = -1
-epsilon = 10**(-3)
+
 
 y = np.load("F.npz")
 F = sparse.coo_matrix((y['data'],(y['row'],y['col'])),shape=y['shape'])
