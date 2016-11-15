@@ -48,7 +48,7 @@ class IndexSink(Sink):
 
 IndexSink = IndexSink()
 parser = NTriplesParser(IndexSink)
-with open("example.ttl", 'rb') as data:
+with open("ekaw.nt", 'rb') as data:
 	parser.parse(data)
 
 
