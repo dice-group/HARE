@@ -13,17 +13,17 @@ W = sparse.dok_matrix((len(T2I), len(E2I)))
 f = defaultdict(int)
 w = defaultdict(int)
 print("CONSTRUCTING DICTIONARY OF KEYS")
+
 k = 0
 for t, i in T2I.items():
 	k += 1
 	if k%1000 == 0:
-		print(k)
-	for e, tmp in E2I.items():
-		j = tmp[0]
-		if e in t:		
-			#edge from entity_j to triple_i detected
-			w[(i, j)] = 1/3
-			f[(j, i)] = 1/E2I[e][1]
+		print(str(k/len(T2I)) + "%")
+	for e in t:		
+		#edge from entity_j to triple_i detected
+		j = E2I[e][0]
+		w[(i, j)] = 1/3
+		f[(j, i)] = 1/E2I[e][1]
 print("UPDATING MATRIX F...")
 for key, val in f.items():
 	F[key] = val
