@@ -2,6 +2,7 @@ from scipy import sparse as sparse
 from scipy import io
 import numpy as np
 import pickle as pkl
+print("LOADING DICTIONARIES")
 E2I = pkl.load(open("e2i.pkl", "rb"))
 T2I = pkl.load(open("t2i.pkl", "rb"))
 I2E = dict()
@@ -11,13 +12,15 @@ for key, val in E2I.items():
 for key, val in T2I.items():
 	I2T[val] = key
 
-
+print("LOADING F")
 y = np.load("F.npz")
 F = sparse.coo_matrix((y['data'],(y['row'],y['col'])),shape=y['shape'])
 
+print("LOADING W")
 y = np.load("W.npz")
 W = sparse.coo_matrix((y['data'],(y['row'],y['col'])),shape=y['shape'])
 
+print("CALCULATING P_N")
 P = sparse.csr_matrix(F.dot(W))
 n = P.shape[0]
 
@@ -28,13 +31,13 @@ error = 1
 epsilon = 10**(-3)
 damping = 0.85
 
-print(P.todense())
 while error > epsilon:
 	tmp = np.array(previous)
 	previous = damping*P.T.dot(previous) + (1-damping)*ones
 	error = np.linalg.norm(tmp - previous)	
 	print(error)
 
+print("WRITING RESULTS")
 with open("results_resources.txt", "w") as results:
 	for i, x in sorted(enumerate(previous), key = lambda x: -x[1]):
 		tmp = ""		
