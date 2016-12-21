@@ -17,6 +17,7 @@ In the paper we used the following datasets:
 + Dbpedia 
 + Airports
 + ...
-We cleaned the datasets for syntactic errors (e.g. "4.5"xsd^^integer).
-In case of DBPedia and LUBM please use `cat *.ttl > out.ttl´
 
+
+We cleaned the datasets for syntactic errors (e.g. "4.5"xsd^^integer).
+In case of DBPedia and LUBM please use `cat *.ttl > out.ttl`
