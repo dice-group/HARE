@@ -6,7 +6,7 @@ import time
 from Utility.config import data_dir
 load_dir = data_dir + "Matrices/"
 save_dir = data_dir + "Results/"
-def hare(name, saveresults=True, printerror=False):
+def hare(name, epsilon, damping, saveresults=True, printerror=False):
 	if ".ttl" in name: name = name[:-4]
 	if ".nt" in name: name = name[:-3]
 
@@ -27,8 +27,6 @@ def hare(name, saveresults=True, printerror=False):
 	ones = np.ones(n)
 
 	error = 1
-	epsilon = 10**(-3)
-	damping = 0.85
 
 	while error > epsilon:
 		tmp = np.array(previous)

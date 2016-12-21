@@ -3,4 +3,4 @@ from Utility.parseRDF import parseRDF
 from Computations.hare import hare
 parseRDF("example.ttl")
 getTransitionMatrices("example.ttl")
-hare("example.ttl", saveresults=False, printerror=False)
+hare("example.ttl", epsilon=10**(-3), damping = .85, saveresults=False, printerror=False)
