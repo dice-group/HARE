@@ -3,7 +3,9 @@ from scipy import io
 import numpy as np
 import pickle as pkl
 import time
+
 from Utility.config import data_dir
+
 load_dir = data_dir + "Matrices/"
 save_dir = data_dir + "Results/"
 def hare(name, epsilon, damping, saveresults=True, printerror=False):
@@ -35,6 +37,7 @@ def hare(name, epsilon, damping, saveresults=True, printerror=False):
 		if(printerror):
 			print(error)
 
+	resourcedistribution = previous
 	tripledistribution = F.T.dot(previous)
 	tac = time.time()
 	print("RUNTIME: ", tac-tic)
@@ -51,12 +54,12 @@ def hare(name, epsilon, damping, saveresults=True, printerror=False):
 		
 		print("WRITING RESULTS")
 		with open(save_dir + "results_resources_" + name + "_HARE.txt", "w") as results:
-			for i, x in sorted(enumerate(previous), key = lambda x: -x[1]):
+			for i, x in sorted(enumerate(resourcedistribution), key = lambda x: -x[1]):
 				tmp = ""		
 				tmp += str(I2E[i])
 				results.write(tmp +  " " + str(x) + "\n")
 
-		with open(save_dir + "results_triples_" + name + "HARE.txt", "w") as results:
+		with open(save_dir + "results_triples_" + name + "_HARE.txt", "w") as results:
 			for i, x in sorted(enumerate(tripledistribution), key = lambda x: -x[1]):
 				tmp = ""		
 				for n in I2T[i]:
