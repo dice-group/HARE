@@ -14,10 +14,9 @@ run experiment: `python experiment.py`
 ## Datasets
 Please make sure to provide valid .nt or .ttl.
 In the paper we used the following datasets:
-1. Dbpedia
-..*test
-2. Airports
-3. LUBM
-  -... 
++ Dbpedia 
++ Airports
++ ...
 We cleaned the datasets for syntactic errors (e.g. "4.5"xsd^^integer).
 In case of DBPedia and LUBM please use `cat *.ttl > out.ttl´
+
