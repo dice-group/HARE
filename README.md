@@ -1,5 +1,9 @@
 # HARE
 
 conda env create -f hare.yml
-linux conda activate hare
-windows source activate hare
+
+on linux: conda activate hare
+
+on windows: source activate hare
+
+run experiment: python experiment.py
