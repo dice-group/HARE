@@ -8,7 +8,7 @@ from Utility.config import data_dir
 
 load_dir = data_dir + "Matrices/"
 save_dir = data_dir + "Results/"
-def hare(name, epsilon, damping, saveresults=True, printerror=False, printruntimes=False):
+def pagerank(name, epsilon, damping, saveresults=True, printerror=False, printruntimes=False):
 	if ".ttl" in name: name = name[:-4]
 	if ".nt" in name: name = name[:-3]
 
@@ -22,8 +22,9 @@ def hare(name, epsilon, damping, saveresults=True, printerror=False, printruntim
 	W = sparse.coo_matrix((y['data'],(y['row'],y['col'])),shape=y['shape'])
 
 	print("CALCULATING P_N")
-	P = sparse.csr_matrix(F.dot(W))
+	P = sparse.bmat([[None, W], [F, None]])
 	n = P.shape[0]
+
 
 	previous = np.ones(n)/n
 	ones = np.ones(n)
@@ -37,8 +38,7 @@ def hare(name, epsilon, damping, saveresults=True, printerror=False, printruntim
 		if(printerror):
 			print(error)
 
-	resourcedistribution = previous
-	tripledistribution = F.T.dot(previous)
+	distribution = previous
 	tac = time.time()
 	runtime = tac-tic
 	if(printruntimes):
@@ -55,16 +55,13 @@ def hare(name, epsilon, damping, saveresults=True, printerror=False, printruntim
 			I2T[val] = key
 		
 		print("WRITING RESULTS")
-		with open(save_dir + "results_resources_" + name + "_HARE.txt", "w") as results:
-			for i, x in sorted(enumerate(resourcedistribution), key = lambda x: -x[1]):
-				tmp = ""		
-				tmp += str(I2E[i])
-				results.write(tmp +  " " + str(x) + "\n")
-
-		with open(save_dir + "results_triples_" + name + "_HARE.txt", "w") as results:
-			for i, x in sorted(enumerate(tripledistribution), key = lambda x: -x[1]):
-				tmp = ""		
-				for n in I2T[i]:
-					tmp += str(n) + " "
-				results.write(tmp +  " " + str(x) + "\n")
+		with open(save_dir + "results_PAGERANK.txt", "w") as results:
+			for i, x in sorted(enumerate(previous), key = lambda x: -x[1]):
+				tmp = ""
+				if i < len(I2T):		
+					tmp += str(I2T[i])
+					results.write(tmp +  " " + str(x) + "\n")
+				else:
+					tmp += str(I2E[i- len(I2T)])
+					results.write(tmp + " " + str(x) + "\n")
 	return runtime
