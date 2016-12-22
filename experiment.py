@@ -5,7 +5,7 @@ from Computations.pagerank import pagerank
 import numpy as np
 
 repetitions = 5
-data = "dbpedia_2015-10.nt" #"example.ttl"
+data = "dbpedia_2015-10.nt"
 print("WITH: ", data)
 parseRDF(data)
 getTransitionMatrices(data)
