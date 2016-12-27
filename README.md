@@ -5,18 +5,17 @@ First make sure you have installed `numpy, scipy, rdflib` (in their latest versi
 ```
 conda env create -f hare.yml
 ```
-on linux: `conda activate hare`
+on linux: `source activate hare`
 
 on windows, mac: `source activate hare`
 
 run experiment: `python experiment.py`
 
+prepare the evaluation dataset: `python prepare_eval.py`
+
 ## Datasets
 Please make sure to provide valid .nt or .ttl.
-In the paper we used the following datasets:
-+ Dbpedia 
-+ Airports
-+ ...
+
 
 
 We cleaned the datasets for syntactic errors (e.g. "4.5"xsd^^integer).
