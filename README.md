@@ -1,5 +1,6 @@
 # HARE
 ## Running HARE
+We use the anaconda package. To make sure that you have all the required packages, install anaconda and do
 ```
 conda env create -f hare.yml
 ```
