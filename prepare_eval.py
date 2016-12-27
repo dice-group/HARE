@@ -1,5 +1,5 @@
 from Utility.getRankedLists import getRankedLists
-from Utility.prepareEval import prepare_Eval
+from Utility.prepareEval import prepareEval
 
 method = "HARE" #PAGERANK
 
@@ -9,4 +9,4 @@ classes = ["City", "University", "VideoGame", "SpaceStation", "Mountain", "Hotel
 	            "MilitaryConflict", "ProgrammingLanguage", "Country"]
 
 getRankedLists(classes, method)
-prepare_Eval(classes, method)
+preparesEval(classes, method)
