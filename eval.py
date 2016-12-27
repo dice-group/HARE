@@ -9,4 +9,4 @@ classes = ["City", "University", "VideoGame", "SpaceStation", "Mountain", "Hotel
 	            "MilitaryConflict", "ProgrammingLanguage", "Country"]
 
 getRankedLists(classes, method)
-preparesEval(classes, method)
+prepareEval(classes, method)
