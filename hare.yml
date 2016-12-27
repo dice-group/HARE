@@ -1,9 +1,8 @@
 name: hare
 dependencies:
 - numpy=1.11.2=py35_0
-- pip=9.0.1=py35_1
-- python=3.5.2=0
 - scipy=0.18.1=np111py35_0
 - pip:
   - rdflib==4.2.1
+  - sparqlwrapper==1.8.0
 

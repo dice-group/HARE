@@ -55,7 +55,7 @@ def pagerank(name, epsilon, damping, saveresults=True, printerror=False, printru
 			I2T[val] = key
 		
 		print("WRITING RESULTS")
-		with open(save_dir + "results_PAGERANK.txt", "w") as results:
+		with open(save_dir + "results_" + name + "_PAGERANK.txt", "w") as results:
 			for i, x in sorted(enumerate(previous), key = lambda x: -x[1]):
 				tmp = ""
 				if i < len(I2T):		
