@@ -5,7 +5,7 @@ def getRankedLists(classes, method):
 	savepath = data_dir + "RankedLists/" 
 	if method == "HARE":
 		loadpath = data_dir + "Results/" + "results_resources_dbpedia_HARE.txt"	
-	if method == "PAGERANK:
+	if method == "PAGERANK":
 		loadpath = data_dir + "Results/" + "results_dbpedia_PAGERANK.txt"
 	
 
