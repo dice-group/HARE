@@ -1,7 +1,5 @@
 # HARE
 ## Running HARE
-First make sure you have installed `numpy, scipy, rdflib` (in their latest versions pip install --upgrade pip)
-
 ```
 conda env create -f hare.yml
 ```
