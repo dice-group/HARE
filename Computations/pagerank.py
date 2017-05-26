@@ -27,7 +27,7 @@ def pagerank(name, epsilon, damping, saveresults=True, printerror=False, printru
 
 
 	previous = np.ones(n)/n
-	ones = np.ones(n)
+	ones = np.ones(n)/n
 
 	error = 1
 
