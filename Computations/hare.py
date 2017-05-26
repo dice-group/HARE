@@ -26,7 +26,7 @@ def hare(name, epsilon, damping, saveresults=True, printerror=False, printruntim
 	n = P.shape[0]
 
 	previous = np.ones(n)/n
-	ones = np.ones(n)
+	ones = np.ones(n)/n
 
 	error = 1
 
