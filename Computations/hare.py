@@ -29,7 +29,8 @@ def hare(name, epsilon, damping, saveresults=True, printerror=False, printruntim
 	ones = np.ones(n)/n
 
 	error = 1
-
+	tic2 = time.time()
+	
 	while error > epsilon:
 		tmp = np.array(previous)
 		previous = damping*P.T.dot(previous) + (1-damping)*ones
@@ -41,8 +42,10 @@ def hare(name, epsilon, damping, saveresults=True, printerror=False, printruntim
 	tripledistribution = F.T.dot(previous)
 	tac = time.time()
 	runtime = tac-tic
+	runtime2 = tac-tic2
 	if(printruntimes):
-		print("RUNTIME: ", runtime)
+		print("RUNTIME with load: ", runtime)
+		print("RUNTIME without load: ", runtime2)
 	if(saveresults):
 		print("LOADING DICTIONARIES")
 		E2I = pkl.load(open(load_dir + "e2i_" + name + ".pkl", "rb"))
@@ -67,4 +70,4 @@ def hare(name, epsilon, damping, saveresults=True, printerror=False, printruntim
 				for n in I2T[i]:
 					tmp += str(n) + " "
 				results.write(tmp +  " " + str(x) + "\n")
-	return runtime
+	return runtime2

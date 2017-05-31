@@ -30,7 +30,7 @@ def pagerank(name, epsilon, damping, saveresults=True, printerror=False, printru
 	ones = np.ones(n)/n
 
 	error = 1
-
+	tic2 = time.time()
 	while error > epsilon:
 		tmp = np.array(previous)
 		previous = damping*P.T.dot(previous) + (1-damping)*ones
@@ -41,8 +41,10 @@ def pagerank(name, epsilon, damping, saveresults=True, printerror=False, printru
 	distribution = previous
 	tac = time.time()
 	runtime = tac-tic
+	runtime2 = tac-tic2
 	if(printruntimes):
-		print("RUNTIME: ", runtime)
+		print("RUNTIME with loading: ", runtime)
+		print("RUNTIME without loading: ", runtime2)
 	if(saveresults):
 		print("LOADING DICTIONARIES")
 		E2I = pkl.load(open(load_dir + "e2i_" + name + ".pkl", "rb"))
