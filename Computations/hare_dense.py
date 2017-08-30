@@ -6,22 +6,22 @@ import time
 
 from Utility.config import data_dir
 
-load_dir = data_dir + "Matrices/"
-save_dir = data_dir + "Results/"
+#load_dir = data_dir + "Matrices/"
+save_dir = data_dir + "Results_dense/"
 def hare(name, epsilon, damping, saveresults=True, printerror=False, printruntimes=False):
-	if ".ttl" in name: name = name[:-4]
-	if ".nt" in name: name = name[:-3]
+#	if ".ttl" in name: name = name[:-4]
+#	if ".nt" in name: name = name[:-3]
 
 	tic = time.time()
-	print("LOADING F")
-	y = np.load(load_dir + "F_" + name + ".npz")
+#	print("LOADING F")
+	y = np.load(name + "/F.npz")
 	F = sparse.coo_matrix((y['data'],(y['row'],y['col'])),shape=y['shape']).todense()
 
-	print("LOADING W")
-	y = np.load(load_dir + "W_" + name + ".npz")
+#	print("LOADING W")
+	y = np.load(name + "/W.npz")
 	W = sparse.coo_matrix((y['data'],(y['row'],y['col'])),shape=y['shape']).todense()
 
-	print("CALCULATING P_N")
+#	print("CALCULATING P_N")
 	P = np.dot(F,W)
 	n = P.shape[0]
 
@@ -39,8 +39,8 @@ def hare(name, epsilon, damping, saveresults=True, printerror=False, printruntim
 			print(error)
 
 	resourcedistribution = previous
-	tripledistribution = np.dot(F.T,previous)
 	tac = time.time()
+	tripledistribution = np.dot(F.T,previous)	
 	runtime = tac-tic
 	runtime2 = tac-tic2
 	if(printruntimes):

@@ -6,31 +6,31 @@ import time
 
 from Utility.config import data_dir
 
-load_dir = data_dir + "Matrices/"
+#load_dir = data_dir + "Matrices/"
 save_dir = data_dir + "Results/"
-def hare(name, epsilon, damping, saveresults=True, printerror=False, printruntimes=False):
-	if ".ttl" in name: name = name[:-4]
-	if ".nt" in name: name = name[:-3]
+def pagerank(name, epsilon, damping, saveresults=True, printerror=False, printruntimes=False):
+#	if ".ttl" in name: name = name[:-4]
+#	if ".nt" in name: name = name[:-3]
 
 	tic = time.time()
-	print("LOADING F")
-	y = np.load(load_dir + "F_" + name + ".npz")
+#	print("LOADING F")
+	y = np.load(name + "/F.npz")
 	F = sparse.coo_matrix((y['data'],(y['row'],y['col'])),shape=y['shape']).todense()
 
-	print("LOADING W")
-	y = np.load(load_dir + "W_" + name + ".npz")
+#	print("LOADING W")
+	y = np.load(name + "/W.npz")
 	W = sparse.coo_matrix((y['data'],(y['row'],y['col'])),shape=y['shape']).todense()
 
-	print("CALCULATING P_N")
-	P = np.dot(F,W)
+#	print("CALCULATING P_N")
+	P = sparse.bmat([[None, W], [F, None]]).todense()
 	n = P.shape[0]
+
 
 	previous = np.ones(n)/n
 	ones = np.ones(n)/n
 
 	error = 1
 	tic2 = time.time()
-	
 	while error > epsilon:
 		tmp = np.array(previous)
 		previous = damping*np.dot(P.T,previous.T) + (1-damping)*ones
@@ -38,14 +38,13 @@ def hare(name, epsilon, damping, saveresults=True, printerror=False, printruntim
 		if(printerror):
 			print(error)
 
-	resourcedistribution = previous
-	tripledistribution = np.dot(F.T,previous)
+	distribution = previous
 	tac = time.time()
 	runtime = tac-tic
 	runtime2 = tac-tic2
 	if(printruntimes):
-		print("RUNTIME with load: ", runtime)
-		print("RUNTIME without load: ", runtime2)
+		print("RUNTIME with loading: ", runtime)
+		print("RUNTIME without loading: ", runtime2)
 	if(saveresults):
 		print("LOADING DICTIONARIES")
 		E2I = pkl.load(open(load_dir + "e2i_" + name + ".pkl", "rb"))
@@ -58,16 +57,13 @@ def hare(name, epsilon, damping, saveresults=True, printerror=False, printruntim
 			I2T[val] = key
 		
 		print("WRITING RESULTS")
-		with open(save_dir + "results_resources_" + name + "_HARE.txt", "w") as results:
-			for i, x in sorted(enumerate(resourcedistribution), key = lambda x: -x[1]):
-				tmp = ""		
-				tmp += str(I2E[i])
-				results.write(tmp +  " " + str(x) + "\n")
-
-		with open(save_dir + "results_triples_" + name + "_HARE.txt", "w") as results:
-			for i, x in sorted(enumerate(tripledistribution), key = lambda x: -x[1]):
-				tmp = ""		
-				for n in I2T[i]:
-					tmp += str(n) + " "
-				results.write(tmp +  " " + str(x) + "\n")
-	return runtime2
+		with open(save_dir + "results_" + name + "_PAGERANK.txt", "w") as results:
+			for i, x in sorted(enumerate(previous), key = lambda x: -x[1]):
+				tmp = ""
+				if i < len(I2T):		
+					tmp += str(I2T[i])
+					results.write(tmp +  " " + str(x) + "\n")
+				else:
+					tmp += str(I2E[i- len(I2T)])
+					results.write(tmp + " " + str(x) + "\n")
+	return runtime

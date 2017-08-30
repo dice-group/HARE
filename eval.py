@@ -1,7 +1,7 @@
 from Utility.getRankedLists import getRankedLists
 from Utility.prepareEval import prepareEval
 
-methods = ["HARE"]
+methods = ["HARE","PAGERANK"]
 
 classes = ["City", "University", "VideoGame", "SpaceStation", "Mountain", "Hotel",
 	            "EurovisionSongContestEntry", "Drug", "Comedian", "ChessPlayer",

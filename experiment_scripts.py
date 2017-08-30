@@ -1,11 +1,13 @@
 from Utility.getTransitionMatrices import getTransitionMatrices
 from Utility.parseRDF import parseRDF
-from Computations.hare_scripts import hare
-from Computations.pagerank_scripts import pagerank
+from Computations.hare_dense import hare
+from Computations.pagerank_dense import pagerank
 import numpy as np
 
 repetitions = 5
-dataset = ["Airports","dbpedia","dogfood","LUBM/L20","LUBM/L50","LUBM/L100","LUBM/L200","LUBM/L500","LUBM/L1000","sec","sider","UPSTO"]
+#dataset = ["Airports","dbpedia","dogfood","LUBM/L20","LUBM/L50","LUBM/L100","LUBM/L200","LUBM/L500","LUBM/L1000","sec","sider","UPSTO"]
+dataset = ["Airports","sider","dogfood"]
+
 for data in dataset:
 
 	data = "Data/Matrices/HARE/" + data

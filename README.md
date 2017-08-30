@@ -18,3 +18,13 @@ Please make sure to provide valid .nt or .ttl.
 
 We cleaned the datasets for syntactic errors (e.g. "4.5"xsd^^integer).
 In case of DBpedia and LUBM please combine several files into one using `cat *.ttl > out.ttl`
+
+
+## Using Open Blas
+
+```
+ sudo apt-get install libopenblas-dev
+ sudo apt-get install build-essential python-dev
+ pip install numpy
+
+```
