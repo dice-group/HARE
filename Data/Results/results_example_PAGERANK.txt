@@ -1,0 +1,7 @@
+('http://aksw.org/resource/BarackObama', 'http://aksw.org/property/spouse', 'http://aksw.org/resource/MichelleObama') 0.241553587995
+('http://aksw.org/resource/BarackObama', 'http://aksw.org/property/party', 'http://aksw.org/resource/Democrats') 0.241553587995
+http://aksw.org/resource/BarackObama 0.158011893718
+http://aksw.org/property/spouse 0.0897202325732
+http://aksw.org/resource/MichelleObama 0.0897202325732
+http://aksw.org/property/party 0.0897202325732
+http://aksw.org/resource/Democrats 0.0897202325732

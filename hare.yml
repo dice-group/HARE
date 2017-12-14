@@ -1,8 +1,8 @@
-name: hare
+name: hareparallel
 dependencies:
-- numpy=1.11.2=py35_0
-- scipy=0.18.1=np111py35_0
+- mkl=2018.0.1=hfbd8650_4
+- numpy=1.13.3=py35hfd7066c_0
+- scipy=1.0.0=py35h8b35106_0
 - pip:
   - rdflib==4.2.1
   - sparqlwrapper==1.8.0
-

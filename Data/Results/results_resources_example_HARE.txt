@@ -1,0 +1,5 @@
+http://aksw.org/resource/BarackObama 0.22380952381
+http://aksw.org/property/spouse 0.122619047619
+http://aksw.org/resource/MichelleObama 0.122619047619
+http://aksw.org/property/party 0.122619047619
+http://aksw.org/resource/Democrats 0.122619047619
