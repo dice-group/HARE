@@ -5,4 +5,4 @@ dependencies:
 - pip:
   - rdflib==4.2.1
   - sparqlwrapper==1.8.0
-
+  - urllib3
