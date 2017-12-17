@@ -7,6 +7,7 @@ from Utility.config import data_dir
 from rdflib import Graph, URIRef, Literal, BNode
 from rdflib.namespace import RDF
 import re
+import urllib
 
 load_dir = data_dir + "Matrices/"
 save_dir = data_dir + "Results/"
@@ -71,13 +72,14 @@ def pagerank(name, epsilon, damping, saveresults = True, printerror = False, pri
             if i < len(I2T):
                 tmp += str(I2T[i])
                 triple = tmp.split(",")
-                triple[0] = triple[0].replace("(", "").replace("'", "").strip(" ")
-                triple[1] = triple[1].replace("(", "").replace("'", "").strip(" ")
+                triple[0] = triple[0].replace("(", "").replace("'", "").replace("\"", "").strip(" ")
+                triple[1] = triple[1].replace("(", "").replace("'", "").replace("\"", "").strip(" ")
                 triple[2] = triple[2].replace(")", "").replace("'", "").strip(" ")
-                g1.add((statementId, RDF.subject, URIRef(triple[0])))
-                g1.add((statementId, RDF.predicate, URIRef(triple[1])))
+                g1.add((statementId, RDF.subject, URIRef(urllib.urlencode(triple[0]))))
+                g1.add((statementId, RDF.predicate, URIRef(urllib.urlencode(triple[1]))))
                 if "http://" in str(triple[2]):
-                    g1.add((statementId, RDF.object, URIRef(triple[2])))
+                    temp = triple[2].replace(" \" ", "").strip(" ")
+                    g1.add((statementId, RDF.object, URIRef(urllib.urlencode(temp))))
                 else:
                     g1.add((statementId, RDF.object, Literal(triple[2])))
                 g1.add((statementId, prProp, Literal(str(x))))
@@ -85,8 +87,8 @@ def pagerank(name, epsilon, damping, saveresults = True, printerror = False, pri
                 tmp += str(I2E[i - len(I2T)])
                 if not "http://" in tmp:
                     temp = re.sub(r'\W+', '', tmp)
-                    temp = temp.replace("\"","").strip(" ")
-                    g.add((URIRef(temp), prProp, Literal(str(x))))
+                    temp = temp.replace(" \" ", "").strip(" ")
+                    g.add((URIRef(urllib.urlencode(temp)), prProp, Literal(str(x))))
 
         g ^= g1
         g.serialize(save_dir + "dataset_" + name + "_HARE.ttl", format='turtle')

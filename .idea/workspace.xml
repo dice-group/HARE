@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3296f0d-53e0-426d-8df0-d878c0673bb4" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Computations/hare.py" afterPath="$PROJECT_DIR$/Computations/hare.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Computations/pagerank.py" afterPath="$PROJECT_DIR$/Computations/pagerank.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,14 +15,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pagerank.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pagerank.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Computations/pagerank.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="516">
-              <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="13" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
-                <marker date="1513536880663" expanded="true" signature="3276:3361" ph="..." />
+                <marker date="1513543904007" expanded="true" signature="3464:3549" ph="..." />
               </folding>
             </state>
           </provider>
@@ -61,11 +61,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hare.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hare.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Computations/hare.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="9" />
+            <state relative-caret-position="-721">
+              <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -89,9 +89,9 @@
         <option value="$PROJECT_DIR$/Computations/hare_scripts.py" />
         <option value="$PROJECT_DIR$/Utility/parseRDF.py" />
         <option value="$PROJECT_DIR$/Utility/rdfwriter.py" />
-        <option value="$PROJECT_DIR$/Computations/hare.py" />
         <option value="$PROJECT_DIR$/experiment.py" />
         <option value="$PROJECT_DIR$/Computations/pagerank.py" />
+        <option value="$PROJECT_DIR$/Computations/hare.py" />
       </list>
     </option>
   </component>
@@ -344,8 +344,7 @@
         <state relative-caret-position="1125">
           <caret line="82" column="12" lean-forward="false" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <marker date="1513536880663" expanded="true" signature="3276:3361" ph="..." />
+            <marker date="1513543904007" expanded="true" signature="3464:3549" ph="..." />
           </folding>
         </state>
       </provider>
@@ -391,8 +390,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <marker date="1513536880663" expanded="true" signature="3276:3361" ph="..." />
+            <marker date="1513543904007" expanded="true" signature="3464:3549" ph="..." />
           </folding>
         </state>
       </provider>
@@ -430,8 +428,7 @@
         <state relative-caret-position="630">
           <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <marker date="1513536880663" expanded="true" signature="3276:3361" ph="..." />
+            <marker date="1513543904007" expanded="true" signature="3464:3549" ph="..." />
           </folding>
         </state>
       </provider>
@@ -508,8 +505,7 @@
         <state relative-caret-position="595">
           <caret line="84" column="12" lean-forward="false" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <marker date="1513536880663" expanded="true" signature="3276:3361" ph="..." />
+            <marker date="1513543904007" expanded="true" signature="3464:3549" ph="..." />
           </folding>
         </state>
       </provider>
@@ -527,8 +523,7 @@
         <state relative-caret-position="630">
           <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <marker date="1513536880663" expanded="true" signature="3276:3361" ph="..." />
+            <marker date="1513543904007" expanded="true" signature="3464:3549" ph="..." />
           </folding>
         </state>
       </provider>
@@ -600,22 +595,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Computations/hare.py">
+    <entry file="file://$PROJECT_DIR$/Computations/pagerank.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="9" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <marker date="1513543904007" expanded="true" signature="3464:3549" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Computations/pagerank.py">
+    <entry file="file://$PROJECT_DIR$/Computations/hare.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="516">
-          <caret line="86" column="50" lean-forward="true" selection-start-line="86" selection-start-column="50" selection-end-line="86" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-            <marker date="1513536880663" expanded="true" signature="3276:3361" ph="..." />
-          </folding>
+        <state relative-caret-position="-721">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

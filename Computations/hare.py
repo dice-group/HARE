@@ -5,6 +5,7 @@ import pickle as pkl
 import time
 from rdflib import Graph, URIRef, Literal, BNode
 from rdflib.namespace import RDF
+import urllib
 import re
 
 from Utility.config import data_dir
@@ -81,11 +82,11 @@ def hare(name, epsilon, damping, saveresults = True, printerror = False, printru
             for n in I2T[i]:
                 tmp += str(n) + " "
             triple = tmp.split(" ")
-            g.add((statementId, RDF.subject, URIRef(triple[0])))
-            g.add((statementId, RDF.predicate, URIRef(triple[1])))
+            g.add((statementId, RDF.subject, URIRef(urllib.urlencode(triple[0]))))
+            g.add((statementId, RDF.predicate, URIRef(urllib.urlencode(triple[1]))))
 
             if "http://" in str(triple[2]):
-             g.add((statementId, RDF.object, URIRef(triple[2])))
+             g.add((statementId, RDF.object, URIRef(urllib.urlencode(triple[2]))))
             else:
              g.add((statementId, RDF.object, Literal(triple[2])))
 
