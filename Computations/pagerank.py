@@ -85,6 +85,7 @@ def pagerank(name, epsilon, damping, saveresults = True, printerror = False, pri
                 tmp += str(I2E[i - len(I2T)])
                 if not "http://" in tmp:
                     temp = re.sub(r'\W+', '', tmp)
+                    temp = temp.replace("\"","").strip(" ")
                     g.add((URIRef(temp), prProp, Literal(str(x))))
 
         g ^= g1
