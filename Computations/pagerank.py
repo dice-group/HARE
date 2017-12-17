@@ -6,6 +6,7 @@ import time
 from Utility.config import data_dir
 from rdflib import Graph, URIRef, Literal, BNode
 from rdflib.namespace import RDF
+import re
 
 load_dir = data_dir + "Matrices/"
 save_dir = data_dir + "Results/"
@@ -83,7 +84,8 @@ def pagerank(name, epsilon, damping, saveresults = True, printerror = False, pri
             else:
                 tmp += str(I2E[i - len(I2T)])
                 if not "http://" in tmp:
-                    g1.add((URIRef(tmp), prProp, Literal(str(x))))
+                    temp = re.sub(r'\W+', '', str(I2E[i]))
+                    g.add((URIRef(temp), prProp, Literal(str(x))))
 
         g ^= g1
         g.serialize(save_dir + "dataset_" + name + "_HARE.ttl", format='turtle')
