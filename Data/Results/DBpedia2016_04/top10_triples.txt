@@ -1,0 +1,10 @@
+http://dbpedia.org/resource/List_of_anthropologists http://www.w3.org/2000/01/rdf-schema#label List of anthropologists  1.26982942036
+http://dbpedia.org/resource/American_shot http://www.w3.org/2000/01/rdf-schema#label American shot  1.26982942036
+http://dbpedia.org/resource/Artistic_revolution http://www.w3.org/2000/01/rdf-schema#label Artistic revolution  1.26982942036
+http://dbpedia.org/resource/Acoustic_theory http://www.w3.org/2000/01/rdf-schema#label Acoustic theory  1.26982942036
+http://dbpedia.org/resource/Ancylopoda http://www.w3.org/2000/01/rdf-schema#label Ancylopoda  1.26982942036
+http://dbpedia.org/resource/Alphonso_I_of_Spain http://www.w3.org/2000/01/rdf-schema#label Alphonso I of Spain  1.26982942036
+http://dbpedia.org/resource/Ambrosians http://www.w3.org/2000/01/rdf-schema#label Ambrosians  1.26982942036
+http://dbpedia.org/resource/Alfonso_Leng http://www.w3.org/2000/01/rdf-schema#label Alfonso Leng  1.26982942036
+http://dbpedia.org/resource/Asynchronous_communication http://www.w3.org/2000/01/rdf-schema#label Asynchronous communication  1.26982942036
+http://dbpedia.org/resource/Abated http://www.w3.org/2000/01/rdf-schema#label Abated  1.26982942036

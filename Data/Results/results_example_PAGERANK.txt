@@ -1,0 +1,7 @@
+('http://dbpedia.org/resource/Leipzig', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#type', 'http://dbpedia.org/ontology/Location') 0.241553587995
+('http://dbpedia.org/resource/Leipzig', 'http://dbpedia.org/ontology/country', 'http://dbpedia.org/resource/Germany') 0.241553587995
+http://dbpedia.org/resource/Leipzig 0.158011893718
+http://www.w3.org/1999/02/22-rdf-syntax-ns#type 0.0897202325732
+http://dbpedia.org/ontology/Location 0.0897202325732
+http://dbpedia.org/ontology/country 0.0897202325732
+http://dbpedia.org/resource/Germany 0.0897202325732

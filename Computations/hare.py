@@ -5,6 +5,7 @@ import pickle as pkl
 import time
 from rdflib import Graph, URIRef, Literal, BNode
 from rdflib.namespace import RDF
+import re
 
 from Utility.config import data_dir
 
@@ -70,8 +71,9 @@ def hare(name, epsilon, damping, saveresults = True, printerror = False, printru
 
         print("WRITING RESULTS")
         for i, x in sorted(enumerate(resourcedistribution), key=lambda x: -x[1]):
-            if not " " in str(I2E[i]):
-                g.add((URIRef(str(I2E[i])), hareprop, Literal(str(x))))
+            if not "http://" in str(I2E[i]):
+                temp = re.sub(r'\W+', '', str(I2E[i]))
+                g.add((URIRef(temp), hareprop, Literal(str(x))))
         for i, x in sorted(enumerate(tripledistribution), key=lambda x: -x[1]):
             statementId = BNode()
             g.add((statementId, RDF.type, RDF.Statement))
@@ -81,6 +83,7 @@ def hare(name, epsilon, damping, saveresults = True, printerror = False, printru
             triple = tmp.split(" ")
             g.add((statementId, RDF.subject, URIRef(triple[0])))
             g.add((statementId, RDF.predicate, URIRef(triple[1])))
+
             if "http://" in str(triple[2]):
              g.add((statementId, RDF.object, URIRef(triple[2])))
             else:

@@ -2,81 +2,84 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3296f0d-53e0-426d-8df0-d878c0673bb4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/HARE.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utility/rdfwriter.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/KnowledgeBases/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/KnowledgeBases/dbpedia_2015-10.nt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/KnowledgeBases/example.ttl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Matrices/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/.gitkeep" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Album_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Album_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Automobile_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Automobile_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Band_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Band_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/ChessPlayer_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/ChessPlayer_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/City_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/City_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Comedian_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Comedian_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Country_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Country_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Drug_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Drug_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/EurovisionSongContestEntry_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/EurovisionSongContestEntry_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/HistoricPlace_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/HistoricPlace_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Hotel_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Hotel_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/MilitaryConflict_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/MilitaryConflict_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Mountain_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Mountain_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Person_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Person_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/ProgrammingLanguage_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/ProgrammingLanguage_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/SpaceStation_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/SpaceStation_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Town_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/Town_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/University_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/University_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/VideoGame_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/RankedLists/VideoGame_PAGERANK.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Album_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Automobile_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Band_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/ChessPlayer_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/City_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Comedian_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Country_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Drug_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/EurovisionSongContestEntry_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/HistoricPlace_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Hotel_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/MilitaryConflict_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Mountain_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Person_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/ProgrammingLanguage_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/SpaceStation_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Town_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/University_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/VideoGame_HARE.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/top100_resources.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/top10_triples.txt" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Matrices/F_dbpedia_2015-10.npz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Matrices/F_example.npz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Matrices/W_dbpedia_2015-10.npz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Matrices/W_example.npz" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Matrices/tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/tmp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/KnowledgeBases/dbpedia_2015-10.nt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/KnowledgeBases/example.ttl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Matrices/e2i_dbpedia_2015-10.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Matrices/e2i_example.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Matrices/t2i_dbpedia_2015-10.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Matrices/t2i_example.pkl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Album_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Album_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Automobile_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Automobile_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Band_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Band_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/ChessPlayer_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/ChessPlayer_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/City_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/City_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Comedian_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Comedian_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Country_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Country_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Drug_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Drug_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/EurovisionSongContestEntry_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/EurovisionSongContestEntry_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/HistoricPlace_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/HistoricPlace_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Hotel_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Hotel_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/MilitaryConflict_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/MilitaryConflict_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Mountain_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Mountain_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Person_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Person_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/ProgrammingLanguage_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/ProgrammingLanguage_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/SpaceStation_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/SpaceStation_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Town_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/Town_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/University_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/University_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/VideoGame_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/RankedLists/VideoGame_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Album_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Automobile_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Band_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/ChessPlayer_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/City_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Comedian_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Country_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Drug_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/EurovisionSongContestEntry_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/HistoricPlace_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Hotel_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/MilitaryConflict_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Mountain_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Person_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/ProgrammingLanguage_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/SpaceStation_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/Town_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/University_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/RankedLists/VideoGame_HARE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/top100_resources.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/DBpedia2016_04/top10_triples.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/dataset_example_HARE.ttl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/results_example_PAGERANK.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/results_resources_dbpedia_2015-10_HARE.ttl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Data/Results/results_resources_example_HARE.ttl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Computations/hare.py" afterPath="$PROJECT_DIR$/Computations/hare.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Computations/hare_scripts.py" afterPath="$PROJECT_DIR$/Computations/hare_scripts.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Computations/pagerank.py" afterPath="$PROJECT_DIR$/Computations/pagerank.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Utility/parseRDF.py" afterPath="$PROJECT_DIR$/Utility/parseRDF.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/experiment.py" afterPath="$PROJECT_DIR$/experiment.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -88,14 +91,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pagerank.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pagerank.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Computations/pagerank.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="80" column="73" lean-forward="false" selection-start-line="80" selection-start-column="73" selection-end-line="80" selection-end-column="73" />
+            <state relative-caret-position="565">
+              <caret line="82" column="12" lean-forward="false" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
+                <marker date="1513522344585" expanded="true" signature="3149:3234" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hare_scripts.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Computations/hare_scripts.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-256">
+              <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,7 +117,7 @@
       <file leaf-file-name="parseRDF.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Utility/parseRDF.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
+            <state relative-caret-position="30">
               <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="39" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
@@ -115,7 +129,7 @@
       <file leaf-file-name="experiment.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/experiment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="105">
               <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#63#0" expanded="true" />
@@ -124,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hare.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hare.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Computations/hare.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="554">
-              <caret line="88" column="59" lean-forward="true" selection-start-line="81" selection-start-column="11" selection-end-line="88" selection-end-column="59" />
+            <state relative-caret-position="333">
+              <caret line="74" column="54" lean-forward="true" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -155,8 +169,8 @@
         <option value="$PROJECT_DIR$/Utility/parseRDF.py" />
         <option value="$PROJECT_DIR$/Utility/rdfwriter.py" />
         <option value="$PROJECT_DIR$/experiment.py" />
-        <option value="$PROJECT_DIR$/Computations/hare.py" />
         <option value="$PROJECT_DIR$/Computations/pagerank.py" />
+        <option value="$PROJECT_DIR$/Computations/hare.py" />
       </list>
     </option>
   </component>
@@ -198,6 +212,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -273,7 +288,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -406,10 +420,52 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Computations/pagerank.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1513522344585" expanded="true" signature="3149:3234" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility/parseRDF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Computations/hare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="81" column="43" lean-forward="true" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Computations/pagerank.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
+            <marker date="1513522344585" expanded="true" signature="3149:3234" ph="..." />
           </folding>
         </state>
       </provider>
@@ -418,7 +474,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -436,7 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -444,7 +498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -452,9 +505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#63#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -462,23 +512,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Computations/hare_scripts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-256">
-          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#34#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Utility/parseRDF.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
+        <state relative-caret-position="30">
           <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="39" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
@@ -488,7 +527,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/experiment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="105">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#0#63#0" expanded="true" />
@@ -498,8 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Computations/hare.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="88" column="59" lean-forward="true" selection-start-line="81" selection-start-column="11" selection-end-line="88" selection-end-column="59" />
+        <state relative-caret-position="1095">
+          <caret line="81" column="43" lean-forward="false" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="43" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
@@ -508,8 +547,122 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Computations/pagerank.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="80" column="73" lean-forward="false" selection-start-line="80" selection-start-column="73" selection-end-line="80" selection-end-column="73" />
+        <state relative-caret-position="595">
+          <caret line="84" column="12" lean-forward="false" selection-start-line="84" selection-start-column="12" selection-end-line="84" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1513522344585" expanded="true" signature="3149:3234" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Computations/hare_scripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Computations/pagerank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="48" column="9" lean-forward="false" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1513522344585" expanded="true" signature="3149:3234" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda2/lib/python2.7/site-packages/rdflib/plugins/parsers/ntriples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility/parseRDF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/miniconda2/lib/python2.7/site-packages/rdflib/plugins/parsers/ntriples.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/KnowledgeBases/dbpedia_2015-10.nt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment_scripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility/rdfwriter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Computations/hare_scripts.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-256">
+          <caret line="17" column="26" lean-forward="true" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utility/parseRDF.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="5" column="39" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/experiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Computations/pagerank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="565">
+          <caret line="82" column="12" lean-forward="false" selection-start-line="82" selection-start-column="12" selection-end-line="82" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1513522344585" expanded="true" signature="3149:3234" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Computations/hare.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="74" column="54" lean-forward="true" selection-start-line="74" selection-start-column="54" selection-end-line="74" selection-end-column="54" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
